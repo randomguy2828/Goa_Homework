@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Danfo&family=Rubik+Wet+Paint&family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Dancing+Script:wght@400..700&family=Danfo&family=Rubik+Wet+Paint&family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Dancing+Script:wght@400..700&family=Danfo&family=Pacifico&family=Rubik+Wet+Paint&family=Tiny5&display=swap');
+
+#p1 {
+    font-family: "Rubik Wet Paint", fantasy;
+}
+
+#p2 {
+    font-family: "Bona Nova SC", 'Courier New', Courier, monospace;
+}
+
+#p3 {
+    font-family: "Pacifico" 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+}
+
+a.a1:link {
+    color: green;
+}
+
+a.a1:visited {
+    color: aquamarine;
+}
+
+a.a1:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+a.a1:active {
+    color: darkred;
+}
+
+a.a2:link {
+    color: darkcyan;
+}
+
+a.a2:visited {
+    color: darkmagenta;
+}
+
+a.a2:hover {
+    color: lightcoral;
+    text-decoration: underline;
+}
+
+a.a2:active {
+    color: rgb(9, 0, 139);
+}

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Danfo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Danfo&family=Rubik+Wet+Paint&family=Tiny5&display=swap');
+
+#p1 {
+    font-family: "Tiny5", fantasy;
+}
+
+#p2 {
+    font-family: "Danfo", 'Courier New', Courier, monospace;
+}
+
+#p3 {
+    font-family: "Dancing Script" 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:link {
+    color: aqua;
+}
+

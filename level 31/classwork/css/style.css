@@ -1,0 +1,37 @@
+.div1 {
+    position: absolute;
+    background-color: red;
+    left: 0;
+    top: 0;
+}
+.div2 {
+    position: absolute;
+    background-color: red;
+    right: 0;
+    top: 0;
+}
+.div3 {
+    position: absolute;
+    background-color: red;
+    left: 0;
+    bottom: 0;
+}
+.div4 {
+    position: absolute;
+    background-color: red;
+    bottom: 0;
+    right: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: green;
+}
+.header1 {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: green;
+}

@@ -1,0 +1,47 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+img{
+    width: 350px;
+    height: 500px;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    position: absolute;
+    right: 1000px;
+    bottom: 250px;
+}
+
+.conteiner{
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    position: absolute;
+    right: 650px;
+    bottom: 250px;
+}
+
+.firsttext{
+    font-family: "Montserrat";
+    font-size: 14px;
+    position: absolute;
+    right: 890px;
+    bottom: 700px;
+    color: rgb(131, 131, 131);
+}
+
+.secondttext{
+    font-family: "fraunces";
+    font-size: 30px;
+    position:absolute;
+    right: 870px;
+    bottom: 650px;
+}
+
+.attribution{
+    position:absolute;
+    bottom: 0px;
+    right: 865px;
+}
