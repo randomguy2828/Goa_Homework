@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Dancing+Script:wght@400..700&family=Danfo&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Rubik+Wet+Paint&family=Tiny5&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  hsl(0, 0%, 8%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color:  hsl(0, 0%, 12%);
+    width: 20%;
+    height: 65vh;
+    display: flex;
+    border-radius: 15px;
+}
+
+.upper{
+    border-radius: 50px 50px 50px 50px;
+    background-image: url("../assets/images/avatar-jessica.jpeg");
+    background-size: cover;
+    height: 10%;
+    width: 5%;
+    position:absolute;
+    top: 200px;
+}
+.div1{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.name{
+    text-transform: uppercase;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+
+
