@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+    Bubbling როდესაც ღილაკზე (button) ვაჭერთ, ეს მოვლენა ჯერ ღილაკზე ხდება,შემდეგ გადადის მის მშობელ ელემენტზე, შემდეგ კიდევ უფრო გარეთ და ასე შემდეგ.
+    Capturing აქ კი პირიქით ხდება, მოვლენა ჯერ გარედან იწყება, შემდეგ გადადის შიგნით, ანუ მოვლენა ჩამოდის გარედან შიგნით.
+    -->
+    <div id="parent">
+        <button id="child">click</button>
+    </div>
+
+    <img id="img" src="./image1.jpg" alt="Image Slider" width="500"><br>
+    <button id="prev">Previous</button>
+    <button id="next">Next</button>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
